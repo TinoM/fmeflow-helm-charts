@@ -207,6 +207,8 @@ spec:
               value: "{{ .Values.fmeflow.webserver.hikariDBMaxConnections }}"
             - name: HIDEHOSTCONTENT
               value: "{{ .Values.fmeflow.engines.hideHostContent }}"
+            - name: SHOWPASSWORDLOGINUI
+              value: "{{ .Values.fmeflow.webserver.showPasswordLoginUI }}"
             - name: COREDEBUGLEVEL
               value: "{{ .Values.fmeflow.debugLevel }}"
             - name: ENABLEDFEATURES
